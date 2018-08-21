@@ -1,4 +1,4 @@
-package com.swiftengineer.auth.exceptions;
+package org.swiftengineer.auth.exceptions;
 
 /**
  * @author swift

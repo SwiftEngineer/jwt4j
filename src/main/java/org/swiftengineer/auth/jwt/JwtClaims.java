@@ -1,4 +1,4 @@
-package com.swiftengineer.auth.jwt;
+package org.swiftengineer.auth.jwt;
 
 import org.joda.time.DateTimeConstants;
 

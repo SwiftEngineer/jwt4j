@@ -1,13 +1,13 @@
-package com.swiftengineer.auth.jwt;
+package org.swiftengineer.auth.jwt;
 
 import com.google.common.base.Throwables;
 import com.google.common.collect.ImmutableList;
-import com.swiftengineer.auth.exceptions.JwtVerifyException;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.JWSObject;
 import com.nimbusds.jose.JWSVerifier;
 import com.nimbusds.jose.crypto.RSASSAVerifier;
 import com.nimbusds.jose.util.Base64;
+import org.swiftengineer.auth.exceptions.JwtVerifyException;
 import net.minidev.json.JSONObject;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

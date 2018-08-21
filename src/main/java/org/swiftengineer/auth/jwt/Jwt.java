@@ -1,7 +1,7 @@
-package com.swiftengineer.auth.jwt;
+package org.swiftengineer.auth.jwt;
 
-import com.swiftengineer.auth.exceptions.JwtParseException;
 import com.nimbusds.jose.JWSObject;
+import org.swiftengineer.auth.exceptions.JwtParseException;
 
 import java.text.ParseException;
 

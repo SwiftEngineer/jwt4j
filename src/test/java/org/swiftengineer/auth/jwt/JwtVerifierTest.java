@@ -1,7 +1,7 @@
-package com.swiftengineer.auth.jwt;
+package org.swiftengineer.auth.jwt;
 
-import com.swiftengineer.auth.development.ValidTestCredentialGenerator;
-import com.swiftengineer.auth.exceptions.JwtVerifyException;
+import org.swiftengineer.auth.development.ValidTestCredentialGenerator;
+import org.swiftengineer.auth.exceptions.JwtVerifyException;
 import net.minidev.json.JSONObject;
 import org.junit.Before;
 import org.junit.Test;

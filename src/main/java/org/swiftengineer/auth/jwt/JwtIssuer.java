@@ -1,12 +1,12 @@
-package com.swiftengineer.auth.jwt;
+package org.swiftengineer.auth.jwt;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;
-import com.swiftengineer.auth.exceptions.JwtIssueException;
 import com.nimbusds.jose.*;
 import com.nimbusds.jose.crypto.RSASSASigner;
 import com.nimbusds.jose.util.Base64;
 import com.nimbusds.jwt.JWTClaimsSet;
+import org.swiftengineer.auth.exceptions.JwtIssueException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 

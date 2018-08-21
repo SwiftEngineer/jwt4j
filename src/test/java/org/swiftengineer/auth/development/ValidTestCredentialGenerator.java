@@ -1,4 +1,4 @@
-package com.swiftengineer.auth.development;
+package org.swiftengineer.auth.development;
 
 import org.apache.commons.codec.binary.Base64;
 
