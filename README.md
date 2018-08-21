@@ -1,4 +1,4 @@
-# java-jwt-auth
+# jwt4j
 Java JWT Authentication
 
 This library includes everything you need to both create and verify JWTs in Java!
