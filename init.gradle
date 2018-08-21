@@ -1,0 +1,21 @@
+initscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "net.saliman:gradle-cobertura-plugin:2.2.8"
+    }
+}
+
+allprojects {
+
+    apply plugin: net.saliman.gradle.plugin.cobertura.CoberturaPlugin
+
+    dependencies {
+        testRuntime "org.slf4j:slf4j-log4j12:1.7.5" // Needed for cobertura
+    }
+
+    clean.doFirst {
+        delete('target/')
+    }
+}
