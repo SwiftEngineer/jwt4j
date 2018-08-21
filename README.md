@@ -14,7 +14,7 @@ You can use JwtVerifiers to verify that a JWT has a certain signing pattern, as 
 ```java
 // Create a JWT Verfier with a Signing Pattern. This pattern will be run against all
 String signingPattern = "^.*\\bCN=test-cert\\.swiftengineer\\.com\\b(?:,.*|\\s*)$";
-JwtVerifier = new JwtVerifier(signingPattern);
+JwtVerifier jwtVerifier = new JwtVerifier(signingPattern);
 ```
 
 #### Creating a JwtIssuer
